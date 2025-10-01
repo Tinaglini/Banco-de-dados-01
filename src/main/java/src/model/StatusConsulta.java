@@ -1,4 +1,7 @@
 package src.model;
 
-public class StatusConsulta {
+public enum StatusConsulta {
+    AGENDADA,
+    CONFIRMADA,
+    CANCELADA
 }
